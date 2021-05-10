@@ -1,5 +1,7 @@
-# php_agenda
-Exemplifica o uso de Docker, PHP + MySQL
+# php_ouvidoria
+Exemplifica o uso de Docker, PHP + MySQL.
+
+Instale Git e Docker-Compose.
 
 Clonar repositório:
 ```
