@@ -17,7 +17,7 @@ try {
 ?>
 <html>
 <body>
-    <h1>Tua opinião é muito importante para mim!</h1>
+    <h1>Tua opinião é muito importante!</h1>
     <p>Estou trabalhando para melhorar sempre. Obrigado pela colaboração!!</p>
 </body>
 </html>
