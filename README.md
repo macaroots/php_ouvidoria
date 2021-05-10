@@ -5,7 +5,7 @@ Instale Git e Docker-Compose.
 
 Clonar repositório:
 ```
-git clone https://github.com/macaroots/php_agenda.git
+git clone https://github.com/macaroots/php_ouvidoria.git
 ```
 
 Ligar serviços com Docker Compose:
