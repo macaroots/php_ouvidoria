@@ -8,6 +8,7 @@ services:
         volumes:
             - ./nginx.conf:/etc/nginx/conf.d/default.conf
             - ./app:/app
+            - ./.htpasswd:/etc/nginx/.htpasswd
         depends_on:
             - php
 
@@ -31,5 +32,3 @@ services:
         volumes:
             - ./mysqldata:/var/lib/mysql
             - ./ouvidoria.sql:/docker-entrypoint-initdb.d/dump.sql
-        ports:
-            - 3306:3306
