@@ -25,5 +25,6 @@ DROP TABLE IF EXISTS `comentarios`;
 CREATE TABLE `comentarios` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `comentario` TEXT,
+  `data` DATETIME default now(),
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB;
